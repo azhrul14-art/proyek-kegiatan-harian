@@ -3,25 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title>Kegiatan Harian</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 400px;
+            margin: 80px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: #f1f3f6;
+            margin: 10px 0;
+            padding: 12px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        li:hover {
+            background: #dfe9ff;
+            transform: scale(1.03);
+            cursor: pointer;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+
 </head>
 <body>
 
-    <h1>Kegiatan Harian Saya</h1>
+    <div class="container">
+        <h1>Kegiatan Harian</h1>
+        <p>Daftar aktivitas yang saya lakukan setiap hari</p>
 
-    <p>Berikut adalah kegiatan yang saya lakukan setiap hari:</p>
+        <ul>
+            <li>🌅 Bangun Pagi</li>
+            <li>🕌 Shalat Subuh</li>
+            <li>🍳 Sarapan</li>
+            <li>📚 Kuliah / Belajar</li>
+            <li>💻 Mengerjakan Tugas</li>
+            <li>🏃 Olahraga Ringan</li>
+            <li>🍽️ Makan Malam</li>
+            <li>📖 Belajar Kembali</li>
+            <li>😴 Tidur</li>
+        </ul>
 
-    <ul>
-        <li>Bangun pagi</li>
-        <li>Shalat Subuh</li>
-        <li>Sarapan</li>
-        <li>Belajar / Kuliah</li>
-        <li>Mengerjakan tugas</li>
-        <li>Istirahat</li>
-        <li>Olahraga ringan</li>
-        <li>Makan malam</li>
-        <li>Belajar kembali</li>
-        <li>Tidur</li>
-    </ul>
+        <div class="footer">
+            © 2026 Kegiatan Harian
+        </div>
+    </div>
 
 </body>
 </html>
